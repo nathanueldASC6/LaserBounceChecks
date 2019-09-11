@@ -1,6 +1,6 @@
 let hours = (process.argv[2])
-let pay = hours * .9118 * 15
-console.log(pay)
+let pay = hours * 15 * .99575424 * .93798734 * .98550725 * .98950806 * .99755052 * .99848949
+console.log("$"+(Math.round(pay * 100) / 100))
 
 function BreadDeterminer(){
 if (pay >= 200){
